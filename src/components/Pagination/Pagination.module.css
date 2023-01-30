@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    cursor: pointer;
+    gap: 3px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.active {
+    background-color: lightseagreen;
+}
+
+.select {
+    height: 20px;
+    display: flex;
+}
